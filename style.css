@@ -1,0 +1,36 @@
+body{
+    background: url('https://federaciondecafeteros.org/app/uploads/2020/05/Medell%C3%ADn-scaled.jpg') no-repeat 0 50%;
+    background-size:cover;
+    text-align: center;
+    font-size: 120%;
+    line-height: 120%;
+    color:white;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    align-content: stretch;
+    flex: 1 1 auto;
+}
+
+main form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #022B3A;
+    opacity: 0.6;          
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: stretch;
+    align-content: stretch;
+     
+}
+
+form div {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}

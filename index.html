@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Suscríbase</h1>
+        <p id="description">Me interesa mantenerme actualizado de las noticias de Cafeteros</p>
+    </header>
+    <main>
+        <form action="#" id="survey-form">
+            <div>
+                <label for="name" id="name-label">Nombre:</label>
+                <input type="text" name="nombre" id="name" placeholder="Daniela" required>
+            </div>
+            <div>
+                <label for="surname" id="surname-label">Apellido:</label>
+                <input type="text" name="apellido" id="surname" placeholder="Vera Marin" required>
+            </div>
+            <div>
+                <label for="email" id="email-label">Correo Electrónico:</label>
+                <input type="email" name="correo" id="email" placeholder="danivera2@hotmail.com" required>
+            </div>
+            <section>
+                <div><label for="number" id="number-label">Edad:
+                        <input type="number" name="edad" id="number" placeholder="29" min="18" max="99"
+                            required></label>
+                </div>
+                <div>
+                    <label for="genero" id="genero-label">Género:
+                        <label for="masculino">
+                            <input type="radio" name="genero" id="masculino" value="masculino">Masculino</label>
+                        <label for="femenino">
+                            <input type="radio" name="genero" id="femenino" value="femenino">Femenino</label>
+                        <label for="otro">
+                            <input type="radio" name="genero" id="otro" value="otro">Otro</label>
+                    </label>
+                </div>
+                <div>
+                    <label for="region" id="region-label">Región Cafetera:
+                        <select name="region" id="dropdown">
+                            <option value="antioquia">Antioquia</option>
+                            <option value="boyaca">Boyacá</option>
+                            <option value="caldas">Caldas</option>
+                            <option value="caqueta">Caquetá</option>
+                            <option value="casanare">Casanare</option>
+                            <option value="cauca">Cauca</option>
+                            <option value="cesar">Cesar</option>
+                            <option value="cundinamarca">Cundinamarca</option>
+                            <option value="guajira">La Guajira</option>
+                            <option value="magdalena">Magdalena</option>
+                            <option value="meta">Meta</option>
+                            <option value="nariño">Nariño</option>
+                            <option value="norteSantander">Norte de Santander</option>
+                            <option value="quindio">Quindío</option>
+                            <option value="risaralda">Risaralda</option>
+                            <option value="santander">Santander</option>
+                            <option value="tolima">Tolima</option>
+                            <option value="valleCauca">Valle del Cauca</option>
+                        </select></label>
+                </div>
+            </section>
+            <div>
+                <label>
+                    <textarea cols="30" id="mensaje" name="mensaje" rows="10" placeholder="Mensaje"></textarea>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="checkbox" required> Autorizo el tratamiento de datos personales
+                </label>
+                <label>
+                    <input type="checkbox" required> Certifico que soy mayor de edad
+                </label>
+            </div>
+            <div><input type="submit" id="enviar" value="Enviar" /></div>
+        </form>
+    </main>
+</body>
+
+</html>
